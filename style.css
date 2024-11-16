@@ -1,0 +1,104 @@
+body{
+   background-image: url("./src/underwater-scene-with-sleek-submarine-gliding-through-vibrant-ocean-waters-surrounded-by-diverse-marine-life-illuminated-by-sunlight-rays_95891-30527.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+   background-position: center;
+   color: aliceblue;
+   list-style: none;
+}
+div{
+    width: 90%;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-around;
+    outline-style: solid;
+    outline-width: 5%;
+    outline-color: aliceblue;
+    background-color: darkslateblue;
+    width: 90%;
+    margin: 5%;
+      header{
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        div{
+            margin: 3% 10%;
+            outline-style: solid;
+            outline-width: 1%;
+            outline-color: aliceblue;
+            background-color: darkblue;
+            h1{
+               font-size: larger;
+               font-family: "Holtwood One SC", serif;
+               margin-left: 1cm;
+          }
+       }
+       ul{
+            font-size: large;
+            font-family: "Cinzel Decorative", serif;
+            margin-left: 8%;
+       }
+      }
+      main{
+     img{
+        margin: 0;
+        width: 260%;
+        height: 190%;
+        flex-grow: 1;
+        outline-style: solid;
+        outline-width: 1%;
+        outline-color: aliceblue;
+   }
+     h1{
+        font-size: larger;
+        font-family: "Anton", sans-serif;
+   }
+     div{
+        margin: 0.1%;
+        padding: 0.5%;
+        align-items: center;
+   }
+   p{
+    font-size: medium;
+    font-family: 'TRIAL Oceanic', sans-serif;
+    flex-wrap: wrap;
+    margin: 3%;
+   }
+ }
+}
+a{
+   color: red;
+   text-decoration: none;
+}
+a:hover{color: orange;}
+header div img{
+   position: absolute;
+   top: 15%;
+   left: 65%;
+}
+@media screen and (max-width: 850px){header div img{display: none;}}
+@media screen and (max-height: 1475px){header div img{top: 7%;}}
+@media screen and (max-width: 500px){
+    section{
+      margin: 0;
+      width: 100%;
+      outline-width: 100%;
+    }
+    div{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
