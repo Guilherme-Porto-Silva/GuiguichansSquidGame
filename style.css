@@ -10,7 +10,7 @@ body{
    margin: 0;
 }
 section, header, div{ width: 90%; }
-section, header div, main img{ outline: 5% solid aliceblue; }
+section, header div, main img{ outline: 5px solid aliceblue; }
 section, div{
     padding: 0.5%;
     display: flex;
@@ -29,7 +29,6 @@ section{
         justify-content: center;
         div{
             margin: 3% 10%;
-            outline-width: 1%;
             background-color: darkblue;
             h1{
                font-size: larger;
