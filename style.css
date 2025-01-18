@@ -10,7 +10,7 @@ body{
    margin: 0;
 }
 section, header, div{ width: 90%; }
-section, header div, main img{ outline: solid 5px aliceblue; }
+section, header div, main img{ outline: solid 2px aliceblue; }
 section, div{
     padding: 0.5%;
     display: flex;
